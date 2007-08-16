@@ -46,4 +46,6 @@ rm -rf %{buildroot}
 %doc Changes README DESIGN RELEASE TODO
 %{perl_vendorlib}/Graph
 %{perl_vendorlib}/Graph.*
+%{perl_vendorlib}/Heap071
+%{perl_vendorlib}auto/Heap071
 %{_mandir}/*/*
