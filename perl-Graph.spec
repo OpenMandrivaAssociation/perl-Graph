@@ -47,5 +47,5 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Graph
 %{perl_vendorlib}/Graph.*
 %{perl_vendorlib}/Heap071
-%{perl_vendorlib}auto/Heap071
+%{perl_vendorlib}/auto/Heap071
 %{_mandir}/*/*
