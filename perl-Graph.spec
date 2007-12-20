@@ -17,6 +17,7 @@ BuildRequires:  perl-devel
 %endif
 BuildRequires:  perl(Heap)
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module is not for drawing any sort of graphics, but instead it is for
