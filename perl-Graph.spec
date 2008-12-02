@@ -1,7 +1,7 @@
 %define module  Graph
 %define name    perl-%{module}
-%define version 0.84
-%define release %mkrel 3
+%define version 0.86
+%define release %mkrel 1
 
 Name:           %{name}
 Epoch:          1
