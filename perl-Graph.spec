@@ -1,6 +1,6 @@
 %define module  Graph
 %define name    perl-%{module}
-%define version 0.90
+%define version 0.91
 %define release %mkrel 1
 
 Name:           %{name}
