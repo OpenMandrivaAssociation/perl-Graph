@@ -29,7 +29,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %make_build
 
 %install
-%make_nstall
+%make_install
 
 %files
 %doc Changes README DESIGN RELEASE TODO
