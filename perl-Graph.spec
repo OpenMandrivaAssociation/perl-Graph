@@ -1,9 +1,9 @@
 %define upstream_name    Graph
-%define upstream_version 0.94
+%define upstream_version 0.9704
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 Epoch:		1
 
 Summary:	Graph data structures and algorithms in perl
@@ -26,13 +26,10 @@ operations on those.
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
-
-%check
-%make test
+%make_build
 
 %install
-%makeinstall_std
+%make_nstall
 
 %files
 %doc Changes README DESIGN RELEASE TODO
