@@ -1,16 +1,16 @@
 %define upstream_name    Graph
-%define upstream_version 0.9704
+%define upstream_version 0.9735
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
+Version:	%{upstream_version}
 Release:	1
 Epoch:		1
 
 Summary:	Graph data structures and algorithms in perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Graph/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/graphviz-perl/Graph
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
