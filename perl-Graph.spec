@@ -1,16 +1,14 @@
 %define upstream_name    Graph
-%define upstream_version 0.9735
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.9735
+Release:	2
 Epoch:		1
 
 Summary:	Graph data structures and algorithms in perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/graphviz-perl/Graph
-Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -23,7 +21,7 @@ creating abstract data structures called graphs, and for doing various
 operations on those.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -55,9 +53,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Jul 29 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1:0.910.0-1mdv2010.0
 + Revision: 403227
-- rebuild using %%perl_convert_version
-
-* Sun Jan 18 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1:0.91-1mdv2009.1
+- rebuild using %0.9735 Sun Jan 18 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1:0.91-1mdv2009.1
 + Revision: 330909
 - update to new version 0.91
 
