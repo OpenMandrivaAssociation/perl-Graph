@@ -2,7 +2,7 @@
 %define upstream_version 0.9735
 Name:		perl-%{upstream_name}
 Version:	0.9735
-Release:	1
+Release:	2
 Epoch:		1
 
 Summary:	Graph data structures and algorithms in perl
@@ -22,7 +22,7 @@ creating abstract data structures called graphs, and for doing various
 operations on those.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n Graph-0.9735
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
