@@ -2,7 +2,7 @@
 %define upstream_version 0.9735
 Name:		perl-%{upstream_name}
 Version:	0.9735
-Release:	40
+Release:	41
 Epoch:		1
 
 Summary:	Graph data structures and algorithms in perl
